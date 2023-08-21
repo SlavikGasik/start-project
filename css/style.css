@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+/* ------------------------групповой селектор */
+.header, .nav, .main, .footer {
+    width: 900px;
+}
+.header, .main {
+    padding: 40px;
+}
+.nav, .main, .footer {
+    margin: 20px 0px;
+}
+.nav, .footer {
+    padding: 20px 40px;
+}
+/* -------------------------------header */
+.header {
+    background-color: #f0f8ff;
+    color: #000;
+}
+h1 {
+    font-size: 42px; 
+}
+h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom:24px;
+    line-height: 1;
+}
+
+/* ------------------------nav */
+
+.nav {
+    background-color: #496883;
+}
+.nav a {
+    margin-right: 30px;
+    color: #fff;
+}
+.nav a:last-child {
+    margin-right: 0px;
+}
+
+/* ---------------------------------main */
+.main {
+    background-color: #dcebf0;
+}
+.block {
+    margin-bottom: 50px;
+}
+.block:last-child {
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 26px;
+}
+p {
+    font-size: 16px;
+}
+/* ---------------------------------------blockquote */
+.text {
+    font-size: 18px;
+    margin: 40px 0px;
+    padding: 15px 40px;
+    border-left: 3px solid #f24137;
+}
+/* -------------------------------------footer */
+
+.footer {
+    color: #fff;
+    background-color: #1b3f5e;
+}
